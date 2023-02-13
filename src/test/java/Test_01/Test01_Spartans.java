@@ -65,7 +65,7 @@ public class Test01_Spartans {
                 when().get(apiSpartans + "{id}").
                 prettyPeek().then().statusCode(HttpStatus.SC_OK);
     }
-/////
+//
     @DisplayName("POST new Spartan")
     @Test
     public void test03() {
