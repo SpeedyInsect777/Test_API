@@ -64,7 +64,7 @@ public class Test01_Spartans {
         given().accept(ContentType.JSON).pathParam("id", 7).
                 when().get(apiSpartans + "{id}").
                 prettyPeek().then().statusCode(HttpStatus.SC_OK);
-    }
+    }///
 //
     @DisplayName("POST new Spartan")
     @Test
